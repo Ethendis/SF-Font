@@ -3,8 +3,13 @@
 The GB2312_6763 component table is on the prepare dictionary
 
 #Dataset Preparation
-Build the reference font library and match reference characters for the character.
+
+1.Build the reference font library
 
 ```bash
 python character_select.py
+
+2. Match reference characters for the character.
+
+```bash
 python character_map.py
