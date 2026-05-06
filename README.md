@@ -71,11 +71,11 @@ The training data files tree should be (The data examples are shown in directory
 # Training
 Run the training script with the following command:
 ```
-python main.py --gpu [GPU_ID] --img_size [IMAGE_SIZE] --data_path ./datas/data --output_k [OUTPUT_K] --batch_size [BATCH_SIZE] --val_num [VAL_SAMPLE_NUM]
+python main.py --gpu [GPU_ID] --img_size [IMAGE_SIZE] --data_path ./dataset/train/data --output_k [OUTPUT_K] --batch_size [BATCH_SIZE] --val_num [VAL_SAMPLE_NUM]
 ```
 
 # Testing
 Run the training script with the following command:
 ```
-python main.py --gpu [GPU_ID] --img_size [IMAGE_SIZE] --data_path ./datas/data --output_k [OUTPUT_K] --batch_size [BATCH_SIZE] --validation --load_model [MODEL_NAME]
+python main.py --gpu [GPU_ID] --img_size [IMAGE_SIZE] --data_path ./dataset/test/data --output_k [OUTPUT_K] --batch_size [BATCH_SIZE] --validation --load_model [MODEL_NAME]
 ```
