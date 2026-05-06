@@ -16,3 +16,31 @@ python character_select.py
 ```bash
 python character_map.py
 ```
+
+The training data files tree should be：
+```
+data
+└── font0
+│   ├── char0.png
+│   ├── char1.png
+│   ├── char2.png
+│   └── ...
+└── font1
+    ├── char0.png
+    ├── char1.png
+    ├── char2.png
+    └── ...
+
+
+data1
+└── font0
+│   ├── char0.png
+│   ├── char1.png
+│   ├── char2.png
+│   └── ...
+└── font1
+    ├── char0.png
+    ├── char1.png
+    ├── char2.png
+    └── ...
+```
