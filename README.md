@@ -2,7 +2,7 @@
 
 The GB2312_6763 component table is on the prepare dictionary
 
-#Dataset Preparation
+# Dataset Preparation
 
 1.Build the reference font library
 
