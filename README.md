@@ -17,7 +17,7 @@ python character_select.py
 python character_map.py
 ```
 
-The training data files tree should be (The data examples are shown in directory data_examples/train/)：
+The training data files tree should be (The data examples are shown in directory `datas_examples`)：
 ```
 ├──datas
 │   ├── data
