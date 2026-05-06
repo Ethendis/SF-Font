@@ -17,27 +17,27 @@ python character_select.py
 python character_map.py
 ```
 
-The training data files tree should be：
+The training data files tree should be (The data examples are shown in directory data_examples/train/)：
 ```
 ├──datas
 │   ├── data
-│   │    ├── font0
+│   │    ├── font0             # Source font
 │   │    │    ├── char0.png
 │   │    │    ├── char1.png
 │   │    │    ├── char2.png
 │   │    │    └── ...
-│   │    └── font1
+│   │    └── font1             # Target font
 │   │         ├── char0.png
 │   │         ├── char1.png
 │   │         ├── char2.png
 │   │         └── ...
 │   └── data1
-│        ├── font0
+│        ├── font0             # Source font
 │        │    ├── char0.png
 │        │    ├── char1.png
 │        │    ├── char2.png
 │        │    └── ...
-│        └── font1
+│        └── font1             # Reference character set of target font
 │             ├── char0.png
 │             ├── char1.png
 │             ├── char2.png
